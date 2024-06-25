@@ -1,0 +1,294 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#Header {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 20px;
+}
+
+#Header li {
+    display: inline;
+}
+
+#Header a {
+    color:black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+#Header a:hover {
+    background-color: violet;
+    border-radius: 20px;;
+}
+.left {
+    
+  
+    margin-right: auto;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.img {
+    margin-right: 20px;
+    
+    background-color: violet; 
+     /* Violet background color */
+     border-width: 100px;
+    border-radius: 60%;
+   
+}
+
+.img img {
+    height: 400px;
+    width: 400px;
+}
+
+.con {
+    max-width: 600px;
+}
+
+.con h1, .con h3, .con p {
+    margin: 10px 0;
+}
+
+button{
+    padding:10px;
+    color:white;
+    background-color: blueviolet;
+   
+border-radius: 30px;
+border-width: 0px;
+box-shadow: rgba(25, 25, 25, 0.04) 0 1px 1px 0, rgba(0, 0, 0, 0.1) 0px 4px 4px 0px;
+}
+
+#button {
+
+    border:3px soild red;
+    
+    
+}
+
+.about{
+    padding:50px;
+}
+
+.about h2{
+    font-size:35px;
+}
+.about h2,p{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+p{
+    color:slategrey;
+}
+.system {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.system-img {
+    margin-right: 100px;
+    
+}
+
+
+
+.system-content {
+    max-width: 800px;
+    
+}
+
+.system-content p {
+    margin: 20px 10px;
+    font-size:20px;
+    padding:10px;
+}
+
+.skill
+{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+   
+}
+
+.skill button{
+    padding:10px;
+    margin:10px
+}
+.about1 
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about1 img
+{
+    width:40px;
+    height:40px;
+    margin:5px;
+}
+
+.education-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    color:black;
+}
+
+.education-timeline {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.education-timeline::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: #333;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+}
+
+.education-item {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+    position: relative;
+}
+
+.education-item:nth-child(even) {
+    justify-content: flex-start;
+}
+
+.education-item::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color:blueviolet;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.education-item:nth-child(odd)::before {
+    left: calc(50% - 8px);
+}
+
+.education-item:nth-child(even)::before {
+    right: calc(50% - 8px);
+}
+
+.education-item-content {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 45%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+}
+
+.education-item-content h3, .education-item-content p {
+    margin: 5px 0;
+}
+
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+.project h2
+{
+    font-size:20px;
+}
+.project1 {
+    margin-right: 10px;
+}
+
+
+
+.project-2 {
+   margin-left:150px;
+}
+
+a
+{
+    text-decoration:none;
+  
+}
+.contact
+{
+    margin-left: 25%;;
+}
+
+.last-part {
+    display: flex;
+     color:#f9f9f9;
+    align-items: center;
+    background-color: rgb(219, 135, 219);
+    padding: 100px 100px;
+    margin-top:100px;
+    
+}
+.last-part a{
+    text-decoration: none;
+    color:white;
+}
+
+.last-part div {
+    margin: 10px 10px;
+    margin-left:50px;
+    margin-right:50px;
+}
+
+.last-part .link1 img,
+.last-part .link2 img,
+.last-part .link3 img {
+    width: 20px;
+    height: 20px;
+    margin:10px;
+}
+.rod
+{
+    align-items: center;
+}
+
+
+
+
+
+
